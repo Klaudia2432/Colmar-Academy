@@ -1,0 +1,241 @@
+        body {
+            font-family: 'Oxygen', sans-serif;
+            font-size: 18px;
+            margin: 0px;
+        }
+        
+        .logo {
+            display: flex;
+        }
+        
+        .logo img {}
+        
+        .logo1 {
+            text-transform: uppercase;
+            font-weight: bold;
+            word-spacing: none;
+        }
+        
+        .logo2 {
+            text-transform: uppercase;
+        }
+        
+        .header {
+            width: 100%;
+            height: 64px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header #logo {
+            display: inline-block;
+            margin-left: 24px;
+        }
+        
+        .header #logo img {
+            display: inline-block;
+        }
+        
+        .header #logo h1 {
+            font-size: 32px;
+            display: inline-block;
+        }
+        
+        .header #start nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-right: 24px;
+        }
+        
+        .header #start nav ul li {
+            display: inline;
+            padding-left: 16px;
+        }
+        
+        .header #start nav ul li img {
+            display: none;
+        }
+        
+        header {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            background-color: #d3d3d3;
+        }
+        
+        header img {
+            width: 60%;
+            padding: 16px;
+            margin: 32px 0px 32px 24px;
+        }
+        
+        #learn-sth {
+            margin-top: 80px;
+            margin-left: 24px;
+            margin-right: 50px;
+        }
+        
+        #learn-sth button {
+            margin: 8px 0px 8px 0px;
+            padding: 28px 140px 28px 140px;
+            text-align: justify;
+            background-color: #43464B;
+            font-size: 32px;
+            color: #ffffff;
+        }
+        
+        .about {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            background-color: #ffffff;
+            padding-top: 32px;
+        }
+        
+        .practicing {
+            padding: 16px;
+            margin: 32px 0px 32px 24px;
+        }
+        
+        .about .practicing img {
+            width: 60%;
+            height: auto;
+        }
+        
+        .about .practicing h2 {
+            font-size: 30px;
+            margin-bottom: 32px;
+        }
+        
+        .practicing #small {
+            margin: 43px 0px 32px 0px;
+        }
+        
+        .about .info {
+            margin-right: 0px;
+        }
+        
+        .about .info .news-right {
+            display: flex;
+            flex-direction: row;
+            border: #d3d3d3 solid 1px;
+        }
+        
+        .about .info .news-right img {
+            height: auto;
+            width: 35%;
+            margin-top: 16px;
+            margin-bottom: 16px;
+            margin-left: 16px;
+            margin-right: 16px;
+        }
+        
+        .about .info .news-right:first-child {
+            margin-top: 0px;
+        }
+        
+        .about .info .news-right:last-child {
+            margin-top: auto;
+            font-weight: normal;
+            background-color: #d3d3d3;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #3C99DC;
+        }
+        
+        .our-courses {
+            background-color: #d3d3d3;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: auto;
+        }
+        
+        .course {
+            background-color: #ffffff;
+            width: 30%;
+            margin: 16px;
+            padding-bottom: 24px;
+        }
+        
+        .courses-img img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .courses-txt {
+            padding: 16px 16px;
+        }
+        
+        .thesis {
+            width: 60%;
+            margin: 0px 24px 24px 24px;
+        }
+        
+        .media {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+        }
+        
+        h2 {
+            font-size: 30px;
+            margin: 32px 0px 0px 0px;
+            text-align: center;
+            padding-bottom: 32px;
+            padding-top: 32px;
+        }
+        
+        .start-learning {
+            background-color: #d3d3d3;
+        }
+        
+        .thesis video {
+            width: 86%;
+            height: 400px;
+        }
+        
+        .products {
+            width: 40%;
+        }
+        
+        .products .prod-img:first-child {
+            background-color: #d3d3d3;
+        }
+        
+        .products .prod-img img {
+            height: auto;
+            width: 35%;
+            margin: 16px 16px 16px 16px;
+        }
+        
+        .prod-img {
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            margin: 0px 16px 16px 16px;
+        }
+        
+        .description {
+            display: flex;
+            flex-flow: wrap column;
+            justify-content: center;
+            margin-right: 8px;
+        }
+        
+        .now-and-then {
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin: 0px 24px 0px 24px;
+        }
