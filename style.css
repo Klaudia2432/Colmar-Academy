@@ -8,8 +8,6 @@
             display: flex;
         }
         
-        .logo img {}
-        
         .logo1 {
             text-transform: uppercase;
             font-weight: bold;
@@ -66,9 +64,8 @@
         }
         
         header img {
-            width: 60%;
-            padding: 16px;
-            margin: 32px 0px 32px 24px;
+            width: 57.9%;
+            padding: 32px 65px 32px 40px;
         }
         
         #learn-sth {
@@ -91,22 +88,23 @@
             justify-content: flex-end;
             flex-direction: row;
             background-color: #ffffff;
-            padding-top: 32px;
         }
         
         .practicing {
-            padding: 16px;
+            padding-left: 16px;
+            padding-right: 24px;
             margin: 32px 0px 32px 24px;
+            width: 90%;
         }
         
         .about .practicing img {
-            width: 60%;
+            width: 100%;
             height: auto;
         }
         
         .about .practicing h2 {
             font-size: 30px;
-            margin-bottom: 32px;
+            margin: 32px 0px 32px 0px;
         }
         
         .practicing #small {
@@ -115,12 +113,14 @@
         
         .about .info {
             margin-right: 0px;
+            border: #d3d3d3 solid 1px;
+            width: 58%;
+            padding-bottom: 42px;
         }
         
         .about .info .news-right {
             display: flex;
             flex-direction: row;
-            border: #d3d3d3 solid 1px;
         }
         
         .about .info .news-right img {
@@ -133,7 +133,8 @@
         }
         
         .about .info .news-right:first-child {
-            margin-top: 0px;
+            margin-top: 15px;
+            border-bottom: #d3d3d3 solid 1px;
         }
         
         .about .info .news-right:last-child {
@@ -153,6 +154,7 @@
             flex-wrap: wrap;
             justify-content: space-around;
             width: auto;
+            padding: 0px 72px 32px 72px;
         }
         
         .course {
@@ -171,6 +173,10 @@
             padding: 16px 16px;
         }
         
+        .terms {
+            word-spacing: 10px;
+        }
+        
         .thesis {
             width: 60%;
             margin: 0px 24px 24px 24px;
@@ -182,7 +188,7 @@
             flex-direction: row;
         }
         
-        h2 {
+        .header-text h2 {
             font-size: 30px;
             margin: 32px 0px 0px 0px;
             text-align: center;
@@ -190,8 +196,50 @@
             padding-top: 32px;
         }
         
-        .start-learning {
+        .start-text h2 {
+            text-align: center;
+        }
+        
+        .start-learning h2 {
             background-color: #d3d3d3;
+            background-color: #d3d3d3;
+            margin: 0px;
+            padding: 32px;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .thesis-text {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        p {
+            display: block;
+            margin-block-start: .5em;
+            margin-block-end: .5em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-size: 17px;
+        }
+        
+        h4 {
+            font-size: 24px;
+            display: block;
+            margin-block-start: .5em;
+            margin-block-end: .5em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        
+        h6 {
+            font-size: 19px;
+            display: block;
+            text-transform: uppercase;
+            margin-block-start: .5em;
+            margin-block-end: .5em;
+            font-weight: normal;
         }
         
         .thesis video {
