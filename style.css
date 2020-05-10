@@ -1,289 +1,440 @@
-        body {
-            font-family: 'Oxygen', sans-serif;
-            font-size: 18px;
-            margin: 0px;
-        }
-        
-        .logo {
-            display: flex;
-        }
-        
-        .logo1 {
-            text-transform: uppercase;
-            font-weight: bold;
-            word-spacing: none;
-        }
-        
-        .logo2 {
-            text-transform: uppercase;
-        }
-        
-        .header {
-            width: 100%;
-            height: 64px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        .header #logo {
-            display: inline-block;
-            margin-left: 24px;
-        }
-        
-        .header #logo img {
-            display: inline-block;
-        }
-        
-        .header #logo h1 {
-            font-size: 32px;
-            display: inline-block;
-        }
-        
-        .header #start nav {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            margin-right: 24px;
-        }
-        
-        .header #start nav ul li {
-            display: inline;
-            padding-left: 16px;
-        }
-        
-        .header #start nav ul li img {
-            display: none;
-        }
-        
-        header {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-            background-color: #d3d3d3;
-        }
-        
-        header img {
-            width: 57.9%;
-            padding: 32px 65px 32px 40px;
-        }
-        
-        #learn-sth {
-            margin-top: 80px;
-            margin-left: 24px;
-            margin-right: 50px;
-        }
-        
-        #learn-sth button {
-            margin: 8px 0px 8px 0px;
-            padding: 28px 140px 28px 140px;
-            text-align: justify;
-            background-color: #43464B;
-            font-size: 32px;
-            color: #ffffff;
-        }
-        
-        .about {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-            background-color: #ffffff;
-        }
-        
-        .practicing {
-            padding-left: 16px;
-            padding-right: 24px;
-            margin: 32px 0px 32px 24px;
-            width: 90%;
-        }
-        
-        .about .practicing img {
-            width: 100%;
-            height: auto;
-        }
-        
-        .about .practicing h2 {
-            font-size: 30px;
-            margin: 32px 0px 32px 0px;
-        }
-        
-        .practicing #small {
-            margin: 43px 0px 32px 0px;
-        }
-        
-        .about .info {
-            margin-right: 0px;
-            border: #d3d3d3 solid 1px;
-            width: 58%;
-            padding-bottom: 42px;
-        }
-        
-        .about .info .news-right {
-            display: flex;
-            flex-direction: row;
-        }
-        
-        .about .info .news-right img {
-            height: auto;
-            width: 35%;
-            margin-top: 16px;
-            margin-bottom: 16px;
-            margin-left: 16px;
-            margin-right: 16px;
-        }
-        
-        .about .info .news-right:first-child {
-            margin-top: 15px;
-            border-bottom: #d3d3d3 solid 1px;
-        }
-        
-        .about .info .news-right:last-child {
-            margin-top: auto;
-            font-weight: normal;
-            background-color: #d3d3d3;
-        }
-        
-        a {
-            text-decoration: none;
-            color: #3C99DC;
-        }
-        
-        .our-courses {
-            background-color: #d3d3d3;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            width: auto;
-            padding: 0px 72px 32px 72px;
-        }
-        
-        .course {
-            background-color: #ffffff;
-            width: 30%;
-            margin: 16px;
-            padding-bottom: 24px;
-        }
-        
-        .courses-img img {
-            width: 100%;
-            height: auto;
-        }
-        
-        .courses-txt {
-            padding: 16px 16px;
-        }
-        
-        .terms {
-            word-spacing: 10px;
-        }
-        
-        .thesis {
-            width: 60%;
-            margin: 0px 24px 24px 24px;
-        }
-        
-        .media {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-        }
-        
-        .header-text h2 {
-            font-size: 30px;
-            margin: 32px 0px 0px 0px;
-            text-align: center;
-            padding-bottom: 32px;
-            padding-top: 32px;
-        }
-        
-        .start-text h2 {
-            text-align: center;
-        }
-        
-        .start-learning h2 {
-            background-color: #d3d3d3;
-            background-color: #d3d3d3;
-            margin: 0px;
-            padding: 32px;
-            text-align: center;
-            font-size: 30px;
-        }
-        
-        .thesis-text {
-            text-align: center;
-            font-size: 30px;
-        }
-        
-        p {
-            display: block;
-            margin-block-start: .5em;
-            margin-block-end: .5em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            font-size: 17px;
-        }
-        
-        h4 {
-            font-size: 24px;
-            display: block;
-            margin-block-start: .5em;
-            margin-block-end: .5em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            font-weight: bold;
-        }
-        
-        h6 {
-            font-size: 19px;
-            display: block;
-            text-transform: uppercase;
-            margin-block-start: .5em;
-            margin-block-end: .5em;
-            font-weight: normal;
-        }
-        
-        .thesis video {
-            width: 100%;
-            height: 466px;
-        }
-        
-        .products {
-            width: 40%;
-        }
-        
-        .products .prod-img:first-child {
-            background-color: #d3d3d3;
-        }
-        
-        .products .prod-img img {
-            height: auto;
-            width: 35%;
-            margin: 16px 16px 16px 16px;
-        }
-        
-        .prod-img {
-            height: auto;
-            display: flex;
-            flex-direction: row;
-            margin: 0px 16px 16px 16px;
-        }
-        
-        .description {
-            display: flex;
-            flex-flow: wrap column;
-            justify-content: center;
-            margin-right: 8px;
-        }
-        
-        .now-and-then {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-        }
-        
-        footer {
-            display: flex;
-            justify-content: space-between;
-            flex-direction: row;
-            margin: 0px 24px 0px 24px;
-        }
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+}
+
+.logo1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    word-spacing: none;
+}
+
+.logo2 {
+    text-transform: uppercase;
+}
+
+.header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header #logo {
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.header #logo img {
+    display: inline-block;
+    margin-bottom: -10px;
+}
+
+.header #logo h1 {
+    font-size: 32px;
+    display: inline-block;
+}
+
+
+/* Navigation */
+
+.header #start nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 24px;
+}
+
+.header #start nav ul li {
+    display: inline;
+    padding-left: 16px;
+}
+
+.header #start nav ul li img {
+    display: none;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #d3d3d3;
+}
+
+header img {
+    width: 57.9%;
+    padding: 32px 65px 32px 40px;
+}
+
+#learn-sth {
+    margin-top: 80px;
+    margin-left: 24px;
+    margin-right: 50px;
+}
+
+#learn-sth button {
+    margin: 8px 0px 8px 0px;
+    padding: 28px 140px 28px 140px;
+    text-align: justify;
+    background-color: #43464B;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+
+/* About */
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.practicing {
+    padding-left: 16px;
+    padding-right: 24px;
+    margin: 32px 0px 32px 24px;
+    width: 90%;
+}
+
+.about .practicing img {
+    width: 100%;
+    height: auto;
+}
+
+.about .practicing h2 {
+    font-size: 30px;
+    margin: 32px 0px 32px 0px;
+}
+
+.practicing #small {
+    margin: 43px 0px 32px 0px;
+}
+
+.about .info {
+    margin-right: 0px;
+    border: #d3d3d3 solid 1px;
+    width: 58%;
+    padding-bottom: 42px;
+}
+
+.about .info .news-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.about .info .news-right img {
+    height: auto;
+    width: 35%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.about .info .news-right:first-child {
+    margin-top: 15px;
+    border-bottom: #d3d3d3 solid 1px;
+}
+
+.about .info .news-right:last-child {
+    margin-top: auto;
+    font-weight: normal;
+    background-color: #d3d3d3;
+}
+
+
+/* Courses */
+
+.our-courses {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    padding: 0px 72px 32px 72px;
+}
+
+.course {
+    background-color: #ffffff;
+    width: 30%;
+    margin: 16px;
+    padding-bottom: 24px;
+}
+
+.courses-img img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Font styles */
+
+.courses-txt {
+    padding: 16px 16px;
+}
+
+.header-text h2 {
+    font-size: 30px;
+    margin: 32px 0px 0px 0px;
+    text-align: center;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+.start-text h2 {
+    text-align: center;
+}
+
+.start-learning h2 {
+    background-color: #d3d3d3;
+    margin: 0px;
+    padding: 32px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.thesis-text {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 17px;
+}
+
+h4 {
+    font-size: 24px;
+    display: block;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 19px;
+    display: block;
+    text-transform: uppercase;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #3C99DC;
+}
+
+
+/* Video file  */
+
+.media {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.thesis {
+    width: 60%;
+    margin: 0px 24px 24px 24px;
+}
+
+.thesis video {
+    width: 100%;
+    height: 466px;
+}
+
+
+/* Products: Images and descriptions */
+
+.products {
+    width: 40%;
+}
+
+.products .prod-img:first-child {
+    background-color: #d3d3d3;
+}
+
+.products .prod-img img {
+    height: auto;
+    width: 35%;
+    margin: 16px 16px 16px 16px;
+}
+
+.prod-img {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 16px 16px 16px;
+}
+
+.description {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.now-and-then {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px 24px 0px 24px;
+}
+
+.terms {
+    word-spacing: 10px;
+}
+
+
+/* Phone resolution: Portraits and landscapes */
+
+@media only screen and (min-device-width: 370px) and (max-device-width: 736px) {
+    /* Logo */
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        display: none;
+    }
+    /* Navigation */
+    .header #start nav ul li {
+        display: none;
+    }
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+    }
+    .mobile-nav img {
+        margin-right: 20px;
+    }
+    /* Header */
+    header {
+        display: block;
+        background-color: #d3d3d3;
+    }
+    header img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .header-text h2 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    #learn-sth button {
+        height: 50%;
+        padding: 14px 70px 14px 70px;
+        margin: 32px 0px 32px 25px;
+    }
+    /* About */
+    .about {
+        display: block;
+        background-color: #ffffff;
+    }
+    .about .practicing {
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+    .about .info {
+        width: 95%;
+        border: 0px;
+    }
+    .about .info .news-right:last-child {
+        margin-top: auto;
+        font-weight: normal;
+        background-color: #ffffff;
+    }
+    .start-learning h2 {
+        background-color: #ffffff;
+    }
+    .about .info .news-right:first-child {
+        margin-top: 15px;
+        border-bottom: 0px;
+    }
+    /* Courses */
+    .our-courses {
+        background-color: #ffffff;
+        display: block;
+        padding: 0%;
+        margin: 0%;
+    }
+    .course {
+        margin: 0px 0px 0px 10px;
+        padding: 0px;
+    }
+    .courses-img img {
+        display: none;
+    }
+    .course .courses-txt .course-descr {
+        display: none;
+    }
+    .courses-txt {
+        background-color: #d3d3d3;
+        padding: 5px 240px 5px 100px;
+        margin-bottom: 8px;
+        text-align: left;
+    }
+    .courses-txt h4 {
+        text-align: left;
+    }
+    /* Media */
+    .media {
+        display: block;
+        background-color: #ffffff;
+        padding: 0px;
+        margin: 0px;
+    }
+    /* Video file */
+    .thesis video {
+        width: 145%;
+        height: 120%;
+    }
+    .products {
+        display: none;
+    }
+    .video-descr {
+        display: none;
+    }
+    /* Footer */
+    .terms {
+        display: none;
+    }
+}
