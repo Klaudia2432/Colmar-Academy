@@ -63,6 +63,10 @@ body {
     display: none;
 }
 
+.navigation-btn {
+    color: black;
+}
+
 .mobile-nav {
     display: none;
 }
@@ -246,7 +250,7 @@ h6 {
 
 a {
     text-decoration: none;
-    color: #3C99DC;
+    color: #ffffff;
 }
 
 
